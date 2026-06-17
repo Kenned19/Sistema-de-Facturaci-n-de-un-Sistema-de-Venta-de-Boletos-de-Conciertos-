@@ -6,5 +6,10 @@ namespace SistemaFacturacionBoletos
         {
             InitializeComponent();
         }
+
+        private void mnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
